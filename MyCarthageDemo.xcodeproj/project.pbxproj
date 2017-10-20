@@ -22,6 +22,8 @@
 		4A5AF6581F99EA010041AB94 /* MyCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5AF6571F99EA010041AB94 /* MyCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A5AF65B1F99EA0A0041AB94 /* MyCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5AF6591F99EA090041AB94 /* MyCustomView.m */; };
 		4A5AF65C1F99EA0A0041AB94 /* MyCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5AF65A1F99EA0A0041AB94 /* MyCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A5AF6741F9A06DB0041AB94 /* MyTriangleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5AF6721F9A06DB0041AB94 /* MyTriangleButton.h */; };
+		4A5AF6751F9A06DB0041AB94 /* MyTriangleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5AF6731F9A06DB0041AB94 /* MyTriangleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,8 @@
 		4A5AF6571F99EA010041AB94 /* MyCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCarthage.h; sourceTree = "<group>"; };
 		4A5AF6591F99EA090041AB94 /* MyCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomView.m; sourceTree = "<group>"; };
 		4A5AF65A1F99EA0A0041AB94 /* MyCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomView.h; sourceTree = "<group>"; };
+		4A5AF6721F9A06DB0041AB94 /* MyTriangleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTriangleButton.h; sourceTree = "<group>"; };
+		4A5AF6731F9A06DB0041AB94 /* MyTriangleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTriangleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +213,8 @@
 				4A5AF6571F99EA010041AB94 /* MyCarthage.h */,
 				4A5AF65A1F99EA0A0041AB94 /* MyCustomView.h */,
 				4A5AF6591F99EA090041AB94 /* MyCustomView.m */,
+				4A5AF6721F9A06DB0041AB94 /* MyTriangleButton.h */,
+				4A5AF6731F9A06DB0041AB94 /* MyTriangleButton.m */,
 			);
 			path = myCarthageFramework;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A5AF6581F99EA010041AB94 /* MyCarthage.h in Headers */,
+				4A5AF6741F9A06DB0041AB94 /* MyTriangleButton.h in Headers */,
 				4A5AF65C1F99EA0A0041AB94 /* MyCustomView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +465,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A5AF65B1F99EA0A0041AB94 /* MyCustomView.m in Sources */,
+				4A5AF6751F9A06DB0041AB94 /* MyTriangleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
