@@ -14,7 +14,8 @@
     if (self = [super init]) {
         self.backgroundColor = [UIColor lightGrayColor];
         
-        UILabel *label = [[UILabel alloc] init];
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 20)];
+        label.translatesAutoresizingMaskIntoConstraints = NO;
         label.text = text;
         label.textColor = [UIColor redColor];
         label.font = [UIFont systemFontOfSize:20];
@@ -23,7 +24,7 @@
         NSLayoutConstraint *cons1 = [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0];
         NSLayoutConstraint *cons2 = [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0];
         
-        [label addConstraints:@[cons1, cons2]];
+        [self addConstraints:@[cons1, cons2]];
     }
     
     return self;
